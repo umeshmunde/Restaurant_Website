@@ -1,0 +1,28 @@
+{
+  "sqltools.connections": [
+    {
+      "name": "Restaurant MySQL (workspace)",
+      "driver": "MySQL",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "database": "restaurant_db",
+      "username": "foodie",
+      "askForPassword": true,
+      "mysqlOptions": {
+        {
+          "sqltools.connections": [
+            {
+      
+              "ssh": false,
+              "previewLimit": 50,
+              "server": "localhost",
+              "port": 3306,
+              "driver": "MySQL",
+              "name": "Restaurant MySQL (workspace)",
+              "database": "restaurant_db",
+              "username": "foodie",
+              "askForPassword": true
+            }
+          ]
+        }

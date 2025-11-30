@@ -1,0 +1,28 @@
+{
+  "name": "restaurant_website",
+  "version": "1.0.0",
+  "description": "Foodie restaurant landing page with a simple Node.js backend for table booking.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "setup-db": "node scripts/setup-database.js"
+  },
+  "keywords": [
+    "restaurant",
+    "food",
+    "landing-page",
+    "node",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
